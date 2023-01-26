@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+.white-text {
+    color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.project-box{
+    background-color: #EFF7FF;
+    border-radius: 5px;
+    color: rgb(65, 65, 65);
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-basis: 60%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.portfolio-box-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    flex-wrap: wrap;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.tech-list {
+    list-style: disc!important;
+    min-width:200px;
 }
 
-.App-link {
-  color: #61dafb;
+.portfolio-icons {
+    color:#3A5683;
+    padding: 10px;
+    margin: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profile-hero{
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    min-width: 400px;
+}
+
+.profile-item-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.profile-item-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 30px;
+    border-top: 1px solid #E8DB7D;
+
+}
+
+.profile-item-footer a {
+    background: #2292A4;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color:white;
+}
+
+#portfolio h2 {
+    font: 22px/30px 'opensans-bold', sans-serif;
+    color: rgb(65, 65, 65);
+    margin-bottom: 12px;
+    text-align:center;
 }
