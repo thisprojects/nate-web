@@ -12,8 +12,9 @@ const projects = [
   {
     title: "Blood Pressure Recorder",
     text: "Records blood pressure readings.",
-    github: "github",
-    link: "blood Pressure",
+    frontEndGithub: "https://github.com/thisprojects/blood-pressure-monitor",
+    backEndGithub: "https://github.com/thisprojects/blood-pressure-node",
+    link: "http://129.151.68.78/",
     published: "Jan 2023",
     tech: (
       <ul className="tech-list">
@@ -37,8 +38,9 @@ const projects = [
   {
     title: "CRM System",
     text: "A basic CRM system, built as part of my Msc dissertation.",
-    github: "github",
-    link: "crm",
+    frontEndGithub: "https://github.com/thisprojects/artcrm-react",
+    backEndGithub: "https://github.com/thisprojects/artcrm-springboot",
+    link: "http://129.151.87.221/",
     published: "Sep 2022",
     tech: (
       <ul className="tech-list">
@@ -60,8 +62,8 @@ const projects = [
   {
     title: "Aviation Checklist",
     text: "A 'To-do' style checklist.",
-    github: "github",
-    link: "aviation checklist",
+    frontEndGithub: "https://github.com/thisprojects/aviation-checklist",
+    link: "https://aviation-checklist-bc1d2.web.app/",
     published: "May 2020",
     tech: (
       <ul className="tech-list">
@@ -81,7 +83,7 @@ const projects = [
   {
     title: "Javascript Web Console",
     text: "Test your JS API knowledge.",
-    github: "github",
+    github: "https://github.com/thisprojects/js-trainer",
     link: "aviation checklist",
     published: "Mar 2020",
     tech: (
@@ -90,6 +92,7 @@ const projects = [
         <li>Routing: React Router</li>
         <li>Tests: Jest</li>
         <li>Infrastructure: Firebase</li>
+        <li>YouTube: <a href="https://www.youtube.com/watch?v=HVVNR96GhPk&t=43s">Tutorial</a></li>
       </ul>
     ),
     icon: (
@@ -124,7 +127,8 @@ const Portfolio = () => {
                         {item.tech}</div>
                     </div>
                     <div className="profile-item-footer">
-                      <a href={item.github}>Github</a>
+                      <a href={item.frontEndGithub}>{item.backEndGithub && "Frontend "}Github</a>
+                      {item.backEndGithub && <a href={item.backEndGithub}>Backend Github</a>}
                       <a href={item.link}>Launch App</a>
                       <span>Published: {item.published}</span>
                     </div>

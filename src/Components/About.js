@@ -11,25 +11,26 @@ const About = () => {
           </div>
           <div className="nine columns main-col">
             <h2>About Me</h2>
-
             <p>
-              My main technical strengths are based within the Javascript
-              ecosystem. At the moment I am mostly working with React and have
-              some experience with Redux, React Router and React Native.
+              Hi! I'm a software engineer with 3 years of experience, having just taken a year out
+              to complete an Msc in Software Engineering. Studying for an Msc has proven invaluable in further bolstering my knowledge of software engineering, 
+              in particular the subjects of quality assurance, requirements gathering, 
+              critical systems, software design and cyber-security have interested me the most. 
+            </p>
+             <p>
+              My main technical strengths are based within the Javascript / Typescript
+              ecosystem, with most of my experience being based around the React framework. I also have some experience working with RESTFUL 
+              backend API's in Node.js (with express) and enjoy using the Springboot framework on personal projects (Oracle Java Progammer I certified). I have a basic 
+              working knowledge of GraphQL.   
             </p>
             <p>
-              I have experience with software testing and use the Jest framework
-              for Javascript. I have basic a basic knowledge of CRUD in Postgres
-              and an understanding of GraphQL. I also like to make use of
-              Node.js and Express in Google Cloud Functions, mostly as proxies
-              for third party API's that do not support CORS.
+              I value quality in my work and am proficient in using Jest and React Testing Library test frameworks. 
+              I have some experience using databases, having worked with both Postgres and MongoDB. I'm a big fan of Docker and have a little knowledge
+              of Kubernetes. 
             </p>
             <p>
-              I use Github for version control and have experience with the peer
-              review process. I was introduced to Google Cloud Platform at a
-              previous place of work. I enjoy using Firebase, Firestore and
-              Kubernetes in my personal projects. I also have a few apps that
-              use Google Maps.
+              From an infrastructure point of view, most of my professional experience has been based around Goold Cloud Platform. Personal projects
+              have utilised compute instances from AWS and Oracle Cloud. This web-portfolio is hosted on Google Firebase.
             </p>
           </div>
         </div>

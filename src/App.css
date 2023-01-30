@@ -15,6 +15,7 @@
     flex-basis: 60%;
 }
 
+
 .portfolio-box-container{
     display: flex;
     flex-direction: row;
@@ -56,16 +57,20 @@
     justify-content: space-evenly;
     width: 100%;
     padding: 30px;
-    border-top: 1px solid #E8DB7D;
+    border-top: 1px solid #2292A4;
 
 }
 
 .profile-item-footer a {
-    background: #2292A4;
+    border:1px solid #2292A4;
     border-radius: 5px;
     padding: 10px;
     text-decoration: none;
-    color:white;
+    color: #231123
+}
+
+.profile-item-footer span {
+    align-self: center;
 }
 
 #portfolio h2 {
