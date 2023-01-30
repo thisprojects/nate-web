@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Fade } from "react-awesome-reveal";
 
 const Footer = () => {
@@ -7,16 +7,8 @@ const Footer = () => {
       <div className="row">
         <Fade bottom>
           <div className="twelve columns">
-            <ul className="social-links">Networks</ul>
-
             <ul className="copyright">
-              <li>&copy; Copyright 2021 Nordic Giant</li>
-              <li>
-                Design by{" "}
-                <a title="Styleshout" href="http://www.styleshout.com/">
-                  Styleshout
-                </a>
-              </li>
+              <li>&copy; Nathan Downes 2023</li>
             </ul>
           </div>
         </Fade>
