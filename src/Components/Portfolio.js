@@ -84,7 +84,7 @@ const projects = [
     title: "Javascript Web Console",
     text: "Test your JS API knowledge.",
     github: "https://github.com/thisprojects/js-trainer",
-    link: "aviation checklist",
+    link: "https://js-trainer.web.app/",
     published: "Mar 2020",
     tech: (
       <ul className="tech-list">
