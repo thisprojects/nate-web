@@ -37,7 +37,7 @@ const projects = [
   },
   {
     title: "CRM System",
-    text: "A basic CRM system, built as part of my Msc dissertation.",
+    text: "A basic CRM system, built as part of my MSc.",
     frontEndGithub: "https://github.com/thisprojects/artcrm-react",
     backEndGithub: "https://github.com/thisprojects/artcrm-springboot",
     link: "http://129.151.87.221/",
