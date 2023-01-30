@@ -48,7 +48,7 @@ const projects = [
         <li>Frontend: React / Typescript</li>
         <li>Backend: Java Springboot</li> <li>Database: Postgres</li>
         <li>Build: Docker-Compose</li>
-        <li>Tests: Jest / React Test Library</li>
+        <li>Tests: Jest / React-Testing-Library</li>
         <li>Infrastructure: Oracle Compute Instance</li>
       </ul>
     ),
