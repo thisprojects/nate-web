@@ -25,6 +25,7 @@ const projects = [
         <li>Authentication: JWT</li>
         <li>Infrastructure: Oracle Compute Instance</li>
         <li>Build: Docker-Compose</li>
+        <li>Tests: Jest / React-Testing-Library</li>
       </ul>
     ),
     icon: (
