@@ -20,13 +20,13 @@ const About = () => {
              <p>
               My main technical strengths are based within the Javascript / Typescript
               ecosystem, with most of my experience being based around the React framework. I also have some experience working with RESTFUL 
-              backend API's in Node.js (with express) and enjoy using the Springboot framework on personal projects (Oracle Java Progammer I certified). I have a basic 
-              working knowledge of GraphQL.   
+              backend API's in Node.js (with express) and enjoy using the Springboot framework on personal projects (Oracle Java Progammer I certified). I have a 
+              had some basic experience with Golang and have recently been experimenting with gin HTTP framework. 
             </p>
             <p>
               I value quality in my work, and am proficient in using Jest and React Testing Library test frameworks. 
               I have some experience using databases, having worked with both Postgres and MongoDB. I'm a big fan of Docker and have a little knowledge
-              of Kubernetes. 
+              of Kubernetes. I have a basic working knowledge of GraphQL.
             </p>
             <p>
               From an infrastructure point of view, most of my professional experience has been based around Google Cloud Platform. Personal projects
