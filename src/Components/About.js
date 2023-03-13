@@ -20,7 +20,7 @@ const About = () => {
              <p>
               My main technical strengths are based within the Javascript / Typescript
               ecosystem, with most of my experience being based around the React framework. I also have some experience working with RESTFUL 
-              backend API's in Node.js (with express) and enjoy using the Springboot framework on personal projects (Oracle Java Progammer I certified). I have a 
+              backend API's in Node.js (with express) and enjoy using the Springboot framework on personal projects (Oracle Java Progammer I certified). I have 
               had some basic experience with Golang and have recently been experimenting with gin HTTP framework. 
             </p>
             <p>
