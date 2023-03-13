@@ -1,4 +1,5 @@
 import React from "react";
+import pic from "./me.jpg";
 import { Fade } from "react-awesome-reveal";
 
 const About = () => {
@@ -7,7 +8,7 @@ const About = () => {
       <Fade duration={1000}>
         <div className="row">
           <div className="three columns">
-            <img className="profile-pic" src="pic" />
+            <img className="profile-pic" src={pic} />
           </div>
           <div className="nine columns main-col">
             <h2>About Me</h2>
